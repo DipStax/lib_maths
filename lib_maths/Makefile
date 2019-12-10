@@ -1,9 +1,9 @@
-/*
-** DipStax, 10 December 2019
-** lib_maths
-** File description:
-** Makefile
-*/
+##
+## DipStax, 10 December 2019
+## lib_maths
+## File Description:
+## Makefile
+##
 
 NAME=		lib_maths
 
