@@ -5,6 +5,8 @@
 ** my_sin(): calcul the sine of an angle.
 */
 
+#include "../include/trigonometry.h"
+
 float my_sin(float x)
 {
     float top = 0;

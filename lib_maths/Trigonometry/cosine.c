@@ -5,6 +5,8 @@
 ** my_cos(): calcul the cosine of an angle.
 */
 
+#include "../include/trigonometry.h"
+
 float my_cos(float x)
 {
     float top = 0;
