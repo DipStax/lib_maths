@@ -6,7 +6,7 @@
 ** arctan(): calcul arctagent.
 */
 
-#include "algebra.h"
+#include"../include/trigonometry.h"
 
 float my_atan2(float y, float x)
 {

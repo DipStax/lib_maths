@@ -25,8 +25,8 @@ int my_fac(int nb)
 
 int my_sfac(int nb) // WIP
 {
-    float first = my_sqrt(2 * PI * nb);
-    float second = my_pow(nb / E, nb);
+    float first = my_sqrt((2 * PI * nb));
+    float second = my_pow((nb / E), nb);
     int result = first * second;
 
     return (result);
