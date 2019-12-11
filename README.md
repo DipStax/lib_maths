@@ -1,19 +1,19 @@
 # Lib_maths
 
-This library is a home made C maths library, not all the functions are available but the labrary will evolve along the time.
+This library is a home made C maths library, not all the functions are available but the library will evolve along the time.
 
 ## Header:
 
-- [**algebra.h**](##algebra.h): main header for every algebra functions.
+- [**algebra.h**](#algebra.h): main header for every algebra functions.
 - [**trigonometry.h**](#trigonometry.h): main header for every trygonometry functions.
-- [**constant.h**](constant.h): header for every maths constants (like π and e).
+- [**constant.h**](#constant.h): header for every maths constants (like π and e).
 
 ## algebra.h:
 
 - **my_pow**: calculates the power of a number.
 - **my_sqrt**: calculates the square root of a number.
 - **my_fac**: calculates the factorial of a number (not so fast).
-- **my_sfac**: method to calculate the factorial of a number faster than **my_fac** . `Work in progress`
+- **my_sfac**: method to calculate the factorial of a number faster than **my_fac**. `+-1`
 > all these functions do not manage all types of entry
 
 ## trigonometry.h:
