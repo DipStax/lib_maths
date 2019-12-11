@@ -8,7 +8,7 @@
 #ifndef CONSTANT_H_
 #define CONSTANT_H_
 
-#define PI 3,14159
-#define E 2,71828
+#define PI 3.14159
+#define E 2.71828
 
 #endif

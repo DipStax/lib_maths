@@ -8,7 +8,7 @@
 
 #include "../include/algebra.h"
 
-int my_fac(int nb)
+long long int my_fac(int nb)
 {
     long long int total = 1;
 
@@ -23,11 +23,11 @@ int my_fac(int nb)
     return (total);
 }
 
-int my_sfac(int nb) // WIP
+long long int my_sfac(int nb) // WIP
 {
-    float first = my_sqrt((2 * PI * nb));
-    float second = my_pow((nb / E), nb);
-    int result = first * second;
+    float first = my_sqrt(2 * PI * nb);
+    float second = my_pow(nb / E, nb);
+    long long int result = first * second;
 
     return (result);
 }

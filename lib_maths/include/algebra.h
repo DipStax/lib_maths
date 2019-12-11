@@ -13,7 +13,7 @@
 float my_pow(float nb, int it);
 float my_sqrt(float nb);
 
-int my_fac(int nb);
-int my_sfac(int nb); // WIP
+long long int my_fac(int nb);
+long long int my_sfac(int nb); // WIP
 
 #endif
