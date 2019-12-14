@@ -2,8 +2,8 @@
 ** DipStax, 10 December 2019
 ** lib_maths
 ** File description:
-** my_pow(): calcul a the pow of a number,
-** my_sqrt(): calcul the squart of a number.
+** my_pow(): calculates the pow of a number,
+** my_sqrt(): calculates the squart of a number.
 */
 
 #include "../include/algebra.h"

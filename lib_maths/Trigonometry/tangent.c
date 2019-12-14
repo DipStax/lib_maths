@@ -2,8 +2,8 @@
 ** DipStax, 10 December 2019
 ** lib_maths
 ** File description:
-** my_atan2(): calcul angle from 2 radians position,
-** arctan(): calcul arctagent.
+** my_atan2(): calculates angle from 2 radians position,
+** my_arctan(): calculates arctagent.
 */
 
 #include"../include/trigonometry.h"
