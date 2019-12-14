@@ -2,8 +2,9 @@
 ** DipStax, 10 December 2019
 ** lib_maths
 ** File description:
-** my_fac(): calcule the factorial of a number (not so fast),
-** my_sfac(): fastest methode to calcul the factorial of a number (WIP).
+** my_fac(): calculates the factorial of a number (not so fast),
+** my_sfac(): fastest methode to calculates the factorial of a number,
+** my_bincoef(): calculates the binomial coeffient between two number.
 */
 
 #include "../include/algebra.h"
@@ -23,11 +24,19 @@ long long int my_fac(int nb)
     return (total);
 }
 
-long long int my_sfac(int nb) // WIP
+long long int my_sfac(int nb)
 {
     float first = my_sqrt(2 * PI * nb);
     float second = my_pow(nb / E, nb);
     long long int result = first * second;
 
     return (result);
+}
+
+long long int my_bincoef(int up, int down)
+{
+    long long int up_side = my_sfac(up);
+    long long int down_side = my_sfac(down) * my_sfac(up - down);
+
+    return (up_side / down_side);
 }

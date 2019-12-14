@@ -2,7 +2,8 @@
 ** DipStax, 10 December 2019
 ** lib_maths
 ** File description:
-** my_sin(): calcul the sine of an angle.
+** my_sin(): calculates the sine of an angle,
+** my_arcsin(): calculates the arcsine of an angle.
 */
 
 #include "../include/trigonometry.h"
@@ -20,4 +21,11 @@ float my_sin(float x)
         sum = my_pow(-1, it) * (top / bot);
         total += sum;
     }
+}
+
+float my_arcsin(float x)
+{
+    float atan = my_arctan(x / (1 + my_sqrt(1 - my_pow(x, 2))));
+
+    return (2 * atan);
 }

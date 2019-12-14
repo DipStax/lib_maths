@@ -2,7 +2,8 @@
 ** DipStax, 10 December 2019
 ** lib_maths
 ** File description:
-** my_cos(): calcul the cosine of an angle.
+** my_cos(): calculates the cosine of an angle,
+** my_arccos(): calculates the arccosine of an angle.
 */
 
 #include "../include/trigonometry.h"
@@ -21,4 +22,11 @@ float my_cos(float x)
         total += sum;
     }
     return (total);
+}
+
+float my_arccos(float x)
+{
+    float atan = my_arctan(my_sqrt(1 - my_pow(x, 2)) / (1 + x));
+
+    return (2 * atan);
 }

@@ -15,7 +15,9 @@ float my_atan2(float y, float x);
 float my_arctan(float x);
 
 float my_cos(float x);
+float my_arccos(float x);
 
 float my_sin(float x);
+float my_arcsin(float x);
 
 #endif

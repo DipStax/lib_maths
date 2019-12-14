@@ -14,6 +14,7 @@ float my_pow(float nb, int it);
 float my_sqrt(float nb);
 
 long long int my_fac(int nb);
-long long int my_sfac(int nb); // WIP
+long long int my_sfac(int nb);
+long long int my_bincoef(int up, int down);
 
 #endif
