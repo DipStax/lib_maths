@@ -11,5 +11,6 @@
 #include "constant.h"
 #include "trigonometry.h"
 #include "algebra.h"
+#include "convertion.h"
 
 #endif
