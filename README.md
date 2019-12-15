@@ -14,20 +14,30 @@ This library is a home made C maths library, not all the functions are available
 - **my_sqrt**: calculates the square root of a number.
 - **my_fac**: calculates the factorial of a number (not so fast).
 - **my_sfac**: method to calculate the factorial of a number faster than **my_fac**. `+-1`
+- **my_bincoef**: calculates the binomial coeficient between two number.
 > all these functions do not manage all types of entry
 
 ## trigonometry.h:
 
 - **my_atan2**: calculates angle from 2 radians position.
 - **my_arctan**: calculates the arctangent of an angle.
-- **my_cos**: calculates the cosinus of an angle.
-- **my_sin**: calculates the sinus of an angle.
+- **my_cos**: calculates the cosine of an angle.
+- **my_arccos**: calculates the arcosine of an angle.
+- **my_sin**: calculates the sine of an angle.
+- **my_arcsin**: calculates the arcsine of an angle.
+> All these functions return radians value.
 
 ## constant.h:
 
 - **PI** (π): defined by: `3.14159`
 - **E** (exp): defined by: `2.71828`
 > TODO: function to calculates constants.
+
+## convertion.h:
+
+- **rad_to_deg**: convert radians to degrees.
+- **deg_to_rad**: convert degrees to radians.
+> all these functions do not manage all types of entry
 
 # Makefile:
 
