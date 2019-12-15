@@ -5,8 +5,9 @@ This library is a home made C maths library, not all the functions are available
 ## Header:
 
 - [**algebra.h**](#algebra.h): main header for every algebra functions.
-- [**trigonometry.h**](#trigonometry.h): main header for every trygonometry functions.
 - [**constant.h**](#constant.h): header for every maths constants (like π and e).
+- [**convertion.h**](#convertion.h): header fior every convertion functions.
+- [**trigonometry.h**](#trigonometry.h): main header for every trygonometry functions.
 
 ## algebra.h:
 
