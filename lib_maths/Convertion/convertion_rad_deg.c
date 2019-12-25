@@ -1,5 +1,5 @@
 /*
-** DipStax, 10 December 2019
+** DipStax, 14 December 2019
 ** lib_maths
 ** File description:
 ** rad_to_deg(): convert radians to degrees,

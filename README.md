@@ -32,7 +32,6 @@ This library is a home made C maths library, not all the functions are available
 
 - **PI** (π): defined by: `3.14159`
 - **E** (exp): defined by: `2.71828`
-> TODO: function to calculates constants.
 
 ## convertion.h:
 
