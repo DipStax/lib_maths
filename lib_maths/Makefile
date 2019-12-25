@@ -9,6 +9,9 @@ NAME=		lib_maths
 
 SRC	=		Algebra/factorial.c \
 			Algebra/power.c \
+			Algebra/decimal.c \
+			Algebra/logarithm.c \
+			Convertion/convertion_rad_deg.c \
 			Trigonometry/cosine.c \
 			Trigonometry/sine.c \
 			Trigonometry/tangent.c \

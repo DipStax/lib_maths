@@ -10,11 +10,16 @@
 
 #include "constant.h"
 
-float my_pow(float nb, int it);
-float my_sqrt(float nb);
+double my_fmod(double nb, double *ent);
+double my_modf(double x, double y);
 
 long long int my_fac(int nb);
 long long int my_sfac(int nb);
 long long int my_bincoef(int up, int down);
+
+float my_ln(float x);
+
+float my_pow(float nb, int it);
+float my_sqrt(float nb);
 
 #endif
