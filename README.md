@@ -16,6 +16,9 @@ This library is a home made C maths library, not all the functions are available
 - **my_fac**: calculates the factorial of a number (not so fast).
 - **my_sfac**: method to calculate the factorial of a number faster than **my_fac**. `+-1`
 - **my_bincoef**: calculates the binomial coeficient between two number.
+- **my_fmod**: give the rest of a division.
+- **my_modf**: give in second parameter the integer and return the decimal part of a number. 
+- **my_ln**: calculates the natural logarithm of a number. `+-0.01`
 > all these functions do not manage all types of entry
 
 ## trigonometry.h:
@@ -26,6 +29,7 @@ This library is a home made C maths library, not all the functions are available
 - **my_arccos**: calculates the arcosine of an angle.
 - **my_sin**: calculates the sine of an angle.
 - **my_arcsin**: calculates the arcsine of an angle.
+- **my_arctanh**: calculates inverse hyperbolic tangent of an angle.
 > All these functions return radians value.
 
 ## constant.h:
@@ -47,9 +51,10 @@ This library is a home made C maths library, not all the functions are available
 - **all**: compiles the library like (**lib_maths**).
 - **clean**: deletes all the objects files (`.o`).
 - **fclean**: call **clean** and deletes the archive of the library (`.a`).
-- **re**: call **fclean**  and **all** it recompiles all the library.
+- **re**: call **fclean** and **all** it recompiles all the library.
 
 ## Compilation:
+
 to compile the library you just need to do this:
 ```
 make lib_maths
