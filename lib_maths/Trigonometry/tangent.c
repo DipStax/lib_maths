@@ -43,3 +43,8 @@ float my_arctan(float x)
     }
     return (total);
 }
+
+float my_arctanh(float x)
+{
+    return (0.5 * my_ln((1 + x) / (1 - x)));
+}
