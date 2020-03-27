@@ -15,12 +15,15 @@ long long int my_fac(int nb)
 
     if (nb == 0)
         return  (1);
-    if (nb < 0)
-        for (int it = -1; it >= nb; it--)
+    if (nb < 0) {
+        for (int it = -1; it >= nb; it--) {
             total *= it;
-    else
-        for (int it = 1; it <= nb; it++)
+        }
+    } else {
+        for (int it = 1; it <= nb; it++) {
             total *= it;
+        }
+    }
     return (total);
 }
 
@@ -35,6 +38,10 @@ long long int my_sfac(int nb)
 
 long long int my_bincoef(int up, int down)
 {
+    if (down < 0 || down > up) {
+        libmaths_error = NOT_IN_RANGE;
+        return (-1);
+    }
     long long int up_side = my_sfac(up);
     long long int down_side = my_sfac(down) * my_sfac(up - down);
 

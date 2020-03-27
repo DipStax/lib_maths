@@ -14,9 +14,16 @@ float my_pow(float nb, int it)
 
     if (it == 0)
         return (1);
-    while (it > 0) {
-        total *= nb;
-        it--;
+    if (it > 0) {
+        while (it > 0) {
+            total *= nb;
+            it--;
+        }
+    } else {
+        while (it < 0) {
+            total /= nb;
+            it++;
+        }
     }
     return (total);
 }
@@ -27,13 +34,15 @@ float my_sqrt(float nb)
     float add_it = 1;
     float tmp = add_it;
 
-    if (nb <= 0)
+    if (nb < 0) {
+        libmaths_error = NEG_NIR;
         return (0);
+    }
     while (nb - result > 0.001) {
         result = tmp * tmp;
-        if (result == nb)
+        if (result == nb) {
             break;
-        if (result > nb) {
+        } else if (result > nb) {
             tmp -= add_it;
             add_it /= 10;
             result = 0;

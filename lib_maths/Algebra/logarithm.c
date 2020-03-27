@@ -12,8 +12,10 @@ float my_ln(float x)
     float top = 0;
     float sum = 0;
 
-    if (x <= 0)
+    if (x <= 0) {
+        libmaths_error = NEG_NUL_NIR;
         return (0);
+    }
     for (int it = 1; it < 20; it++) {
         top = my_pow(-1, it - 1) * my_pow((1 / x) - 1, it);
         sum += top / it;

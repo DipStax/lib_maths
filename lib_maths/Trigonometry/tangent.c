@@ -10,21 +10,22 @@
 
 float my_atan2(float y, float x)
 {
-    if (y == 0)
+    if (y == 0) {
         return (0);
-    if (x == 0) {
-        if (y < 0)
+    } else if (x == 0) {
+        if (y < 0) {
             return (-PI / 2);
-        else
+        } else {
             return (PI / 2);
-    }
-    if (x > 0)
+        }
+    } else if (x > 0) {
         return (my_arctan(y / x));
-    if (x < 0) {
-        if (y >= 0)
+    } else {
+        if (y >= 0) {
             return (my_arctan(y / x) + PI);
-        if (y < 0)
+        } else if (y < 0) {
             return (my_arctan(y / x) - PI);
+        }
     }
 }
 
